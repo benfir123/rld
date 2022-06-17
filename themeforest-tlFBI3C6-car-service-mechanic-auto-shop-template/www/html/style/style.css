@@ -1,5 +1,9 @@
 /* --- general --- */
 
+html {
+	scroll-behavior: smooth;
+}
+
 .clearfix:after
 {
     font-size: 0px;
@@ -14,7 +18,7 @@ body
 	background: #FFF;
 	padding: 0px;
 	margin: 0px;
-	font-family: 'Prompt', 'Open Sans';
+	font-family: 'Open Sans', 'Prompt';
 	font-size: 14px;
 	color: #777;
 }
@@ -41,7 +45,7 @@ a:hover img
 }
 p
 {
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', 'Prompt';
 	padding: 1em 0;
 	color: #777;
 	line-height: 26px;
@@ -52,7 +56,7 @@ p
 }
 p.description
 {
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', 'Prompt';
 	font-size: 18px;
 	font-weight: 300;
 	line-height: 32px;
@@ -76,7 +80,7 @@ strong
 blockquote
 {
 	text-align: center;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', 'Prompt';
 	font-size: 18px;
 	font-weight: 300;
 	font-style: italic;
@@ -123,7 +127,7 @@ label
 }
 input, textarea
 {
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', 'Prompt';
 	border: 1px solid #E2E6E7;
 	font-size: 14px;
 	line-height: 24px;
@@ -150,7 +154,7 @@ table
 table td, table th
 {
 	padding: 18px 30px;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', 'Prompt';
 	font-size: 14px;
 	line-height: 24px;
 }
@@ -336,7 +340,7 @@ body.overlay .site-container
 /* --- headers --- */
 h1, h2, h3, h4, h5, h6
 {
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', 'Prompt';
 	margin: 0;
 	padding: 0;
 	color: #333;
@@ -486,6 +490,7 @@ h3 .more
 }
 .header h1 a
 {	
+	font-family: 'Open Sans';
 	color: #000000;
 }
 .header h1 a:hover
@@ -533,7 +538,7 @@ h3 .more
 .bread-crumb li,
 .bread-crumb li a
 {
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', 'Prompt';
 	font-weight: 500;
 	font-size: 13px;
 	color: #A4AAB3;
@@ -595,7 +600,7 @@ h3 .more
 }
 .sf-menu li a, .sf-menu li a:visited
 {
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', 'Prompt';
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 26px;
@@ -708,7 +713,7 @@ ul.sf-menu li li:first-child li:first-child:hover ul, ul.sf-menu li li:first-chi
 	color: #25282A;
 	background: #F0F0F0;
 	font-size: 14px;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', 'Prompt';
 	line-height: 24px;
 	padding: 12px 20px;
 	margin-bottom: 1px;
@@ -759,7 +764,7 @@ ul.sf-menu li li:first-child li:first-child:hover ul, ul.sf-menu li li:first-chi
 	background: transparent;
 	border-bottom: 1px solid #E2E6E7;
 	padding: 17px 18px 18px 19px;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', 'Prompt';
 	line-height: 24px;
 	color: #777;
 }
@@ -1072,6 +1077,12 @@ body.overlay .background-overlay
 	padding-bottom: 30px;
 	overflow: hidden;
 }
+
+.team-list {
+	display: flex;
+	justify-content: center;
+}
+
 div.team-box
 {
 	width: 100%;
@@ -1196,7 +1207,7 @@ div.team-box
 {
 	border-left: 1px solid #E2E6E7;
 	background: #F5F5F5;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', 'Prompt';
 	font-size: 14px;
 	line-height: 24px;
 	margin: 0;
@@ -1497,7 +1508,7 @@ div.team-box
 }
 .features-list li p
 {
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', 'Prompt';
 	font-size: 14px;
 	line-height: 24px;
 	padding: 0;
@@ -1585,7 +1596,7 @@ div.team-box
 	float: right;
 	max-width: 100px;
 	overflow: hidden;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', 'Prompt';
 	font-weight: 500;
 	color: #FFF;
 	font-size: 13px;
@@ -1615,7 +1626,7 @@ div.team-box
 }
 .timeline-content span.timeline-subtitle
 {
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', 'Prompt';
 	font-weight: 500;
 	font-size: 11px;
 	color: #999;
@@ -1655,7 +1666,7 @@ div.team-box
 }
 .testimonials-list p
 {
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', 'Prompt';
 	font-style: italic;
 	font-weight: 300;
 	font-size: 21px;
@@ -1682,7 +1693,7 @@ div.team-box
 .testimonials-list .author-details
 {
 	margin-top: 7px;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', 'Prompt';
 	font-weight: 500;
 	font-size: 11px; 
 	color: #FFF;
@@ -1873,7 +1884,7 @@ body .type-small .testimonials-list .ornament.empty-circle::before
 }
 .contact-details-list li p
 {
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', 'Prompt';
 	font-size: 21px;
 	line-height: 32px;
 	padding: 12px 0;
@@ -1954,7 +1965,7 @@ span.number,
 span.odometer.number
 {
 	margin-top: 10px;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', 'Prompt';
 	font-weight: 300;
 	font-size: 48px;
 	color: #A4AAB3;
@@ -1994,7 +2005,7 @@ span.number.sign
 {
 	width: 90px;
 	margin-right: 30px;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', 'Prompt';
 	font-weight: 500;
 	font-size: 13px;
 	color: #A4AAB3;
@@ -2069,7 +2080,7 @@ span.number.sign
 }
 .blog .post-content-details li
 {
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', 'Prompt';
 	font-weight: 400;
 	font-size: 13px;
 	color: #A4AAB3;
@@ -2118,7 +2129,7 @@ span.number.sign
 .blog.small .post-content a
 {
 	display: block;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', 'Prompt';
 	font-size: 14px;
 	color: #777;
 	line-height: 24px;
@@ -2232,7 +2243,7 @@ span.number.sign
 }
 .post.single p
 {	
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', 'Prompt';
     font-size: 14px;
     line-height: 24px;
 }
@@ -2254,7 +2265,7 @@ span.number.sign
 	color: #A4AAB3;
 	line-height: 16px;
 	letter-spacing: 1px;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', 'Prompt';
 	font-size: 11px;
 	font-weight: 500;
 	padding: 10px 12px;
@@ -2293,7 +2304,7 @@ span.number.sign
 	background: transparent;
 	border-bottom: 1px solid #e2e6e7;
 	padding: 17px 18px 18px 19px;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', 'Prompt';
 	line-height: 24px;
 	color: #777;
 }
@@ -2583,7 +2594,7 @@ span.number.sign
 }
 .posted-by abbr
 {
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', 'Prompt';
 	color: #A4AAB3;
 	font-size: 13px;
 	margin-top: 7px;
@@ -2604,7 +2615,7 @@ span.number.sign
 }
 #comments-list .comment-details p
 {
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', 'Prompt';
 	font-size: 14px;
 	line-height: 24px;
 	border-bottom: 1px solid #E2E6E7;
@@ -2645,7 +2656,7 @@ span.number.sign
 }
 .pagination li
 {
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', 'Prompt';
 	float: left;
 	margin-left: 7px;
 }
@@ -2699,7 +2710,7 @@ span.number.sign
 {
 	padding-top: 1px;
 	padding-bottom: 1px;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', 'Prompt';
 	font-size: 14px;
 	line-height: 24px;
 	padding-left: 30px;
@@ -2807,7 +2818,7 @@ li.template-bullet:before
 	background: #FFF;
 	padding: 10px 0 23px;
 	border: none;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', 'Prompt';
 	line-height: 24px;
 	outline: none;
 	text-decoration: none;
@@ -2854,7 +2865,7 @@ li.template-bullet:before
 }
 .tabs .ui-tabs-panel p
 {
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', 'Prompt';
 	font-size: 14px;
 	line-height: 24px;
 	padding: 34px 0 0;
@@ -2886,7 +2897,7 @@ li.template-bullet:before
 {
 	padding: 18px 20px;
 	cursor: pointer;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', 'Prompt';
 	line-height: 24px;
 	transition: padding-left 300ms, padding-right 300ms;
 	-webkit-transition: padding-left 300ms, padding-right 300ms;
@@ -2965,7 +2976,7 @@ li.template-bullet:before
 {
 	float: left;
 	border-right: 1px solid #E2E6E7;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', 'Prompt';
 	font-weight: 500;
 	font-size: 13px;
 	color: #999;
@@ -3275,7 +3286,7 @@ li.template-bullet:before
 {
 	text-align: center;
 	color: #333;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', 'Prompt';
 	font-weight: 600;
 }
 .ui-datepicker-next
@@ -3356,7 +3367,7 @@ td.ui-datepicker-current-day a
 .contact-form label
 {
 	display: block;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', 'Prompt';
 	font-size: 14px;
 	font-weight: 600;
 	color: #333;
@@ -3433,7 +3444,7 @@ body .cost-calculator-box input.big
 }
 .cost-calculator-price
 {
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', 'Prompt';
 	font-weight: 300;
 	font-size: 40px;
 	color: #1E69B8;
@@ -3531,7 +3542,7 @@ body .cost-calculator-box input.big
 .ui-slider-handle .cost-slider-tooltip .value
 {
 	width: 100%;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', 'Prompt';
 	color: #FFF;
 	background: #1E69B8;
 	padding: 12px 0;
@@ -3567,7 +3578,7 @@ body .cost-calculator-box input.big
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	float: right;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', 'Prompt';
 	border: 1px solid #E2E6E7;
 	margin: 20px 0 0;
 	background: #FFF;
@@ -3604,7 +3615,7 @@ body .cost-calculator-box input.big
 }
 .ui-selectmenu-menu .ui-menu li
 {
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', 'Prompt';
 	cursor: pointer;
 	background: #FFF;
 	color: #777;
@@ -3646,10 +3657,10 @@ body .cost-calculator-box input.big
 {	
 	position: relative;
 	color: #FFF; 
-	font-family: 'Open Sans';
-	font-size: 14px;
+	font-family: 'Open Sans', 'Prompt';
+	font-size: 1rem;
 	font-weight: 600;
-	background: #0ea5e9;
+	background: #3b82f6;
 	padding: 19px 24px 20px;
 	text-align: center;
 	cursor: pointer;
@@ -3715,7 +3726,7 @@ body .cost-calculator-box input.big
 .copyright
 {	
 	color: #A4AAB3;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', 'Prompt';
 	line-height: 24px;
 }
 .copyright a

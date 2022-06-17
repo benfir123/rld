@@ -39,7 +39,7 @@
 
 .rev-colorpicker .rev-colorbtn {
 	
-	font-family: 'Open Sans';
+	font-family: 'Prompt', 'Open Sans';
 	font-size: 11px;
 	padding: 0 6px 1px;
 	background: #E5E5E5;
@@ -90,7 +90,7 @@
 	top: 50%;
 	left: 50%;
 	margin: -198px 0 0 -305px;
-	font-family: 'Roboto', 'Open Sans';
+	font-family: 'Roboto', 'Prompt', 'Open Sans';
 	font-size: 13px;
 	white-space: nowrap;
 
