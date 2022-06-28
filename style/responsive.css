@@ -1473,3 +1473,10 @@
 		-webkit-text-size-adjust: none;
 	}
 }
+@media screen and (max-width:767px)
+{
+    .button-label
+    {
+        display: none;
+    }
+}
