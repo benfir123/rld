@@ -23,7 +23,7 @@ function sendEmail () {
 
     Email.send({
         SecureToken : "f6087ed3-1ac2-4a1f-b0c2-b490914d163e",
-        To : 'benvidshot@gmail.com',
+        To : ['benvidshot@gmail.com', 'tanadon.keawnakorn@gmail.com'],
         From : "benvidshot@gmail.com",
         Subject : "RLD - มีนัดหมายใหม่จากลูกค้า",
         Body : "รายละเอียดรถยนต์<br>" +
