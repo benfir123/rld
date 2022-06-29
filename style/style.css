@@ -1944,7 +1944,6 @@ body .type-small .testimonials-list .ornament.empty-circle::before
 .parallax-1
 {
 	background-image: url('../images/testimonial/testimonial-banner.jpg');
-	filter: opacity(1);
 }
 .parallax-2
 {
@@ -1963,17 +1962,6 @@ body .type-small .testimonials-list .ornament.empty-circle::before
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center 0;
-}
-.parallax::before {
-	content: "";
-	display: block;
-	width: 100%;
-	height: 100%;
-	background-color: black;
-	position: absolute;
-	top: 0;
-	left: 0;
-	opacity: 0.5;
 }
 
 /* --- counters --- */
