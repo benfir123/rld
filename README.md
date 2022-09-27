@@ -1,6 +1,6 @@
 # RLD
 
-Restore Leather Detailing (RLD) is a local automotive restoration service located in the Rama 2 area. Customers can schedule appointments through their website.
+Restore Leather Detailing (RLD) is a local automotive restoration service located in the Rama 2 area (Bangkok, Thailand). Customers can schedule appointments through their website.
 
 [Live Website](https://https://www.restoreleatherdetailing.com/) :point_left:
 
